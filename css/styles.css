@@ -175,7 +175,7 @@ img {
 
 /* First section */
 
-.icons-first-section {
+/* .icons-second-section {
     width: 264px;
     height: 112px;
     flex-shrink: 0;
@@ -183,7 +183,7 @@ img {
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     background: var(--CLOUD, #F4F4FD);
    
-}
+} */
 
 .icons-advantage {
     position: absolute;
@@ -247,6 +247,17 @@ img {
 .section-second {
     padding: 120px 0;
 }
+
+
+.second-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    }
 
 .visually-hidden {
     position: absolute;
