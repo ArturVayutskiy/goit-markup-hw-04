@@ -450,25 +450,44 @@ img {
 /* Footer */
 
 .footer {
-    display: block;
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     padding: 100px 0;
-    background-color: #2E2F42;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;}
+
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-studio {
+    margin-right: 120px;
 }
 
 
 
-.footer-socials {
+/* .footer-socials {
     display: flex;
     margin-left: 50%;
     margin-right: 50%;
-
-} 
-
-.footer-list {
-    display: flex;
-    gap: 16px;
-
-}
+    
+}  */
 
 .footer-caption {
     font-weight: 500;
@@ -479,6 +498,11 @@ img {
     margin-bottom: 16px;
 }
 
+.footer-list {
+    display: flex;
+    gap: 16px;
+    
+}
 
 .socials-item {
     width: 40px;
@@ -506,14 +530,8 @@ img {
 
 .footer .footer-logo {
     display: inline-block;
+    margin-right: 0;
     margin-bottom: 16px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
 }
 
 .footer-span {
@@ -521,11 +539,13 @@ img {
 }
 
 .footer-parag {
-    height: 72px;
-    width: 264px;
+    
+    color: #f4f4fd;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .footer-container {
@@ -534,9 +554,7 @@ img {
 
 }
 
-.footer-studio {
-    margin-right: 120px;
-}
+
 
 
 /* ICONS 3 Section */
