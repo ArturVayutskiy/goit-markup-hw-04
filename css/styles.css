@@ -581,8 +581,6 @@ img {
     background-color: #4D5AE5;
     border-radius: 50%;
     color: #F4F4FD;
-    transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
-
 }
 
 .icons-link:hover,
