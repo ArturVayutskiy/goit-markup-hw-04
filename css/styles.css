@@ -187,6 +187,8 @@ img {
 
 .icons-advantage {
     position: absolute;
+    width: 64px;
+    height: 64px;
 }
 
 .section-first {
